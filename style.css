@@ -318,7 +318,7 @@ html {
 }
 
 .byng { 
-  grid-area: byng;\
+  grid-area: byng;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,7 +346,7 @@ html {
 .veximage {
   width: 90%;
   height: 90%;
-  background: url(https://github.com/WhyFenceCode/ByngRobotics/blob/c4fc349aca1fac6e5c9bb424b756a198e8523b7b/vexlogo.png);
+  background: url(/vexlogo.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
