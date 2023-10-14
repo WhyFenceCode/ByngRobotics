@@ -368,15 +368,24 @@ html {
     "about-content";
 }
 
-.about-title { grid-area: about-title; }
+.about-title { 
+  grid-area: about-title; 
+  display: flex;
+  align-items: center;
+}
 
 .about-content { 
   grid-area: about-content; 
   word-wrap: break-word;
 }
 
+.about-content > p {
+  padding-left: 3vw;
+}
+
 .about-title > h1 {
   font-size: 7em;
+  padding-left: 3vw;
 }
 
 @media (max-width: 544px) {
