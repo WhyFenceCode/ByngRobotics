@@ -452,6 +452,18 @@ html {
   padding-left: 3vw;
 }
 
+.tech{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech > h1 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 6em;
+}
+
 @media (max-width: 544px) {
   .home {
     display: grid; 
