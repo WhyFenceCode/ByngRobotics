@@ -330,7 +330,12 @@ html {
   font-size: 5em;
 }
 
-.vex { grid-area: vex; }
+.vex { 
+  grid-area: vex; 
+  background: url(https://media.team254.com/2016/03/964607df-Vex-Logo1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 
 .about {
