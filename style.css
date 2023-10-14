@@ -321,6 +321,10 @@ html {
 
 .x-part { grid-area: x-part; }
 
+.x-part > h1 {
+  font-size: 5em;
+}
+
 .vex { grid-area: vex; }
 
 
