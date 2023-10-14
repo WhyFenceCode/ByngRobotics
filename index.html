@@ -5,17 +5,6 @@
   <title>Byng Robotics</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
-
-  <style>
-          .text {
-              line-height: 1em; /* This is for 4em tall lines of text */
-              height: 8em; /* This is for 4 lines of text */
-              width: 90%; /* Adjust width as needed */
-              overflow: hidden;
-              resize: none;
-              word-wrap: break-word;
-          }
-      </style>
   
 </head>
 <body>
@@ -76,7 +65,7 @@
   <div id="about" class="fullpage about">
     <div class="about-title"><h1>ABOUT</h1></div>
     <div class="about-content">
-      <p class="text">At Byng robotics we use VEX components to build competition robots. We strive to create a team atmosphere where everyone has something to do and everyone feels that their work is appreciated.</p>
+      <p>At Byng robotics we use VEX components to build competition robots. We strive to create a team atmosphere where everyone has something to do and everyone feels that their work is appreciated.</p>
     </div>
   </div>
   <div id="meetings" class="fullpage meetings">
@@ -85,7 +74,7 @@
   <div id="competitions" class="fullpage comp">
     <div class="comp-title"><h1>COMPETITIONS</h1></div>
     <div class="comp-content">
-      <p class="text"> We compete in the yearly VRC competitions with robots we build. We are currently working on a robot for VRC Over Under. We plan on finishing this robot soon and then we will start going to competitions and making other improvements.</p>
+      <p> We compete in the yearly VRC competitions with robots we build. We are currently working on a robot for VRC Over Under. We plan on finishing this robot soon and then we will start going to competitions and making other improvements.</p>
     </div>
   </div>
   <div id="tech" class="fullpage">
@@ -100,21 +89,6 @@
   <div id="find" class="fullpage">
 
   </div>
-
-  <script>
-    var texts = document.getElementsByClassName('text');
-
-    for (var i = 0; i < texts.length; i++) {
-        var style = window.getComputedStyle(texts[i], null).getPropertyValue('font-size');
-        var fontSize = parseFloat(style); 
-
-        // Check if text exceeds the height (number of lines)
-        while (texts[i].scrollHeight > texts[i].offsetHeight) {
-            fontSize -= 0.5;
-            texts[i].style.fontSize = fontSize + "px";
-        }
-    }
-  </script>
 </main>
 </body>
 </html>
