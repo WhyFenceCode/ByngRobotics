@@ -357,6 +357,10 @@ html {
   background-color: var(--tertiary-bg-color);
 }
 
+.comp {
+  background-color: var(--secondary-bg-color);
+}
+
 .about {  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 5fr;
