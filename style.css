@@ -381,7 +381,8 @@ html {
 
 .about-content > p {
   padding-left: 3vw;
-  font-size: 3em;
+  padding-right: 3vw;
+  font-size: 4em;
 }
 
 .about-title > h1 {
