@@ -370,7 +370,10 @@ html {
 
 .about-title { grid-area: about-title; }
 
-.about-content { grid-area: about-content; }
+.about-content { 
+  grid-area: about-content; 
+  word-wrap: break-word;
+}
 
 .about-title > h1 {
   font-size: 7em;
