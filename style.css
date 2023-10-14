@@ -464,6 +464,10 @@ html {
   font-size: 6em;
 }
 
+.proj {
+  background-color: var(--secondary-bg-color);
+}
+
 @media (max-width: 544px) {
   .home {
     display: grid; 
