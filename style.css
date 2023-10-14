@@ -302,3 +302,14 @@ html {
   width: 100%;
   height: 100vh;
 }
+
+.parallelogram {
+  width: 80%;
+  height: 65%;
+  transform: skew(20deg);
+  background: var(--secondary-bg-color);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  }
