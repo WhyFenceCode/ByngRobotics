@@ -1,7 +1,7 @@
 :root {
-  --main-bg-color: coral;
-  --secondary-bg-color: coral;
-  --tertiary-bg-color: coral;
+  --main-bg-color: #090e34;
+  --secondary-bg-color: #0b113a;
+  --tertiary-bg-color: #1d2144;
   --main-txt-color: white;
   --main-font-size: 1em;
 }
