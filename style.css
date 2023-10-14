@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
 :root {
   --main-bg-color: #090e34;
   --secondary-bg-color: #0b113a;
@@ -6,6 +8,8 @@
   --secondary-accent-color: #202b63;
   --main-txt-color: white;
   --main-font-size: 1em;
+  --main-font-type: font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .Navbar ul {
@@ -28,7 +32,7 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: Arial, sans-serif;
+  font-family: var(--main-font-type);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
