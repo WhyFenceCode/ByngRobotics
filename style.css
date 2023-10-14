@@ -417,4 +417,10 @@ html {
   .byng > h1 {
   font-size: 9em;
   }
+
+  .meetings > h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 3em;
+  }
 }
