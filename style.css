@@ -332,9 +332,6 @@ html {
 
 .vex { 
   grid-area: vex; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .veximage {
@@ -343,6 +340,7 @@ html {
   background: url(https://media.team254.com/2016/03/964607df-Vex-Logo1.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 
