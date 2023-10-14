@@ -565,6 +565,10 @@ html {
   background-color: var(--secondary-accent-gray);
 }
 
+.gray-2 > h1 {
+  font-size: 2em;
+}
+
 .accent{
   background-color: var(--main-accent-color);
 }
