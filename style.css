@@ -412,6 +412,10 @@ html {
   font-size: 6em;
 }
 
+.find {
+  background-color: var(--tertiary-bg-color);
+}
+
 .comp {  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 5fr;
