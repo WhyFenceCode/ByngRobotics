@@ -374,4 +374,8 @@ html {
   .x-part { grid-area: x-part; }
 
   .vex { grid-area: vex; }
+
+  .byng > h1 {
+  font-size: 9em;
+}
 }
