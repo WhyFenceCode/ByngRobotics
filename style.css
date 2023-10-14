@@ -302,15 +302,3 @@ html {
   width: 100%;
   height: 100vh;
 }
-
-#home {
-  display: flex;
-  align-items: center;
-}
-
-.parallelogram {
-  width: 80%;
-  height: 65%;
-  transform: skew(20deg);
-  background: var(--secondary-bg-color);
-  }
