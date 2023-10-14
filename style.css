@@ -319,13 +319,15 @@ html {
 
 .byng { grid-area: byng; }
 
-.x-part { grid-area: x-part; }
-
-.x-part > h1 {
-  font-size: 5em;
+.x-part { 
+  grid-area: x-part; 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.x-part > h1 {
+  font-size: 5em;
 }
 
 .vex { grid-area: vex; }
