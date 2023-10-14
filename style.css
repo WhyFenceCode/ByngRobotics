@@ -307,10 +307,41 @@ html {
   height: 100vh;
 }
 
-.home {
-  
+.home {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "byng x-part vex";
 }
+
+.byng { grid-area: byng; }
+
+.x-part { grid-area: x-part; }
+
+.vex { grid-area: vex; }
+
 
 .about {
   background-color: var(--tertiary-bg-color);
+}
+
+@media (min-width: 544px) {
+  .home {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "byng"
+      "x-part"
+      "vex"; 
+  }
+  .byng { grid-area: byng; }
+
+  .x-part { grid-area: x-part; }
+
+  .vex { grid-area: vex; }
 }
