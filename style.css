@@ -406,6 +406,12 @@ html {
   font-size: 6em;
 }
 
+.find > h1 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 6em;
+}
+
 .comp {  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 5fr;
@@ -462,6 +468,12 @@ html {
   }
 
   .meetings > h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 3em;
+  }
+
+  .find > h1 {
     padding-left: 3vw;
     padding-right: 3vw;
     font-size: 3em;
