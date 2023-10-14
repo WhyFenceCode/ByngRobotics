@@ -317,7 +317,16 @@ html {
     "byng x-part vex";
 }
 
-.byng { grid-area: byng; }
+.byng { 
+  grid-area: byng;\
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.byng > h1 {
+  font-size: 8em;
+}
 
 .x-part { 
   grid-area: x-part; 
