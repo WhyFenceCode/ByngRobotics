@@ -327,7 +327,7 @@ html {
   background-color: var(--tertiary-bg-color);
 }
 
-@media (min-width: 544px) {
+@media (max-width: 544px) {
   .home {
     display: grid; 
     grid-auto-columns: 1fr; 
