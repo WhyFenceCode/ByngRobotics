@@ -6,6 +6,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
 
+  <style>
+          .text {
+              line-height: 4em; /* This is for 4em tall lines of text */
+              height: 16em; /* This is for 4 lines of text */
+              width: 90%; /* Adjust width as needed */
+              overflow: hidden;
+              resize: none;
+              word-wrap: break-word;
+          }
+      </style>
+  
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -91,8 +102,19 @@
   </div>
 
   <script>
+    var texts = document.getElementsByClassName('text');
 
-  </script>
+    for (var i = 0; i < texts.length; i++) {
+        var style = window.getComputedStyle(texts[i], null).getPropertyValue('font-size');
+        var fontSize = parseFloat(style); 
+
+        // Check if text exceeds the height (number of lines)
+        while (texts[i].scrollHeight > texts[i].offsetHeight) {
+            fontSize -= 0.5;
+            texts[i].style.fontSize = fontSize + "px";
+        }
+    }
+</script>
 </main>
 </body>
 </html>
