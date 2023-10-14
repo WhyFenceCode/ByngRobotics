@@ -1,3 +1,11 @@
+:root {
+  --main-bg-color: coral;
+  --secondary-bg-color: coral;
+  --tertiary -bg-color: coral;
+  --main-txt-color: white;
+  --main-font-size: 1em;
+}
+
 .Navbar ul {
   list-style: none;
   padding-left: 0;
