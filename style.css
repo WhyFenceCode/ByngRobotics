@@ -87,7 +87,7 @@ button.Toggle {
   transform: translateY(1px);
 }
 .Toggle.is-active span {
-  background-color: var(--tertiary-bg-color);
+  background-color: #fff;
   transition-delay: 0.2s;
 }
 .Toggle.is-active span:before, .Toggle.is-active span:after {
@@ -190,7 +190,7 @@ body {
   overflow-y: auto;
   visibility: hidden;
   padding: 2.4rem 0;
-  background-color: rgba(0, 0, 0, 0.92);
+  background-color: var(--tertiary-bg-color);
   opacity: 0;
   transition-property: opacity, visibility, width;
   transition-duration: 0.35s, 0.25s, 0.25s;
