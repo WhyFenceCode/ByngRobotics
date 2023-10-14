@@ -557,6 +557,22 @@ html {
 
 .proj2-accent2 { grid-area: proj2-accent2; }
 
+.gray-1 {
+  background-color: var(--main-accent-gray);
+}
+
+.gray-2 {
+  background-color: var(--secondary-accent-gray);
+}
+
+.accent{
+  background-color: var(--main-accent-color);
+}
+
+.accent2 {
+  background-color: var(--secondary-accent-color);
+}
+
 
 @media (max-width: 544px) {
   .home {
