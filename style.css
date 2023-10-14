@@ -87,7 +87,7 @@ button.Toggle {
   transform: translateY(1px);
 }
 .Toggle.is-active span {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: var(--secondary-bg-color);
   transition-delay: 0.2s;
 }
 .Toggle.is-active span:before, .Toggle.is-active span:after {
