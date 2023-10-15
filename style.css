@@ -587,7 +587,8 @@ html {
 .proj-title > h1 {
     padding-left: 3vw;
     padding-right: 3vw;
-    font-size: 7em;
+    font-size: 5em;
+    margin: 0 3;
   }
 
 
@@ -667,6 +668,7 @@ html {
   .proj-title > h1 {
     padding-left: 3vw;
     padding-right: 3vw;
-    font-size: 3em;
+    font-size: 2em;
+    margin: 0 3;
   }
 }
