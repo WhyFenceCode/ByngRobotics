@@ -570,6 +570,12 @@ html {
   margin: 0 5%;
 }
 
+.gray-2 > p {
+  font-size: 2em;
+  margin: 0.25% 2%;
+  word-wrap: break-word;
+}
+
 .accent{
   background-color: var(--main-accent-color);
 }
