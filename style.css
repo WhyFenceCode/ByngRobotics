@@ -388,7 +388,7 @@ html {
 .about-content > p {
   padding-left: 3vw;
   padding-right: 3vw;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .about-title > h1 {
@@ -582,6 +582,11 @@ html {
 
 .accent2 {
   background-color: var(--secondary-accent-color);
+}
+
+.autolength {
+  width: 100%;
+  height: auto;
 }
 
 
