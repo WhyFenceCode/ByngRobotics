@@ -566,7 +566,7 @@ html {
 }
 
 .gray-2 > h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0 5%;
 }
 
@@ -628,7 +628,7 @@ html {
   .comp-content > p {
     padding-left: 3vw;
     padding-right: 3vw;
-    font-size: 1em;
+    font-size: 2em;
   }
   
   .comp-title > h1 {
@@ -639,11 +639,22 @@ html {
   .about-content > p {
     padding-left: 3vw;
     padding-right: 3vw;
-    font-size: 1em;
+    font-size: 2em;
   }
   
   .about-title > h1 {
     font-size: 3em;
     padding-left: 3vw;
+  }
+
+  .gray-2 > h1 {
+    font-size: 2em;
+    margin: 0 5%;
+  }
+  
+  .gray-2 > p {
+    font-size: 1em;
+    margin: 2% 5%;
+    word-wrap: break-word;
   }
 }
