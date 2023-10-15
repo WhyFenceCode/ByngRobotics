@@ -618,4 +618,32 @@ html {
     padding-right: 3vw;
     font-size: 3em;
   }
+
+  .tech > h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 3em;
+  }
+
+  .comp-content > p {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1em;
+  }
+  
+  .comp-title > h1 {
+    font-size: 3em;
+    padding-left: 3vw;
+  }
+
+  .about-content > p {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1em;
+  }
+  
+  .about-title > h1 {
+    font-size: 3em;
+    padding-left: 3vw;
+  }
 }
