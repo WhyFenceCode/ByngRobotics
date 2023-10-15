@@ -584,6 +584,12 @@ html {
   background-color: var(--secondary-accent-color);
 }
 
+.proj-title > h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 7em;
+  }
+
 
 @media (max-width: 544px) {
   .home {
@@ -656,5 +662,11 @@ html {
     font-size: 1em;
     margin: 2% 5%;
     word-wrap: break-word;
+  }
+
+  .proj-title > h1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 3em;
   }
 }
