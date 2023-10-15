@@ -470,7 +470,7 @@ html {
   background-color: var(--secondary-bg-color);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 7fr;
+  grid-template-rows: 0fr 7fr;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
